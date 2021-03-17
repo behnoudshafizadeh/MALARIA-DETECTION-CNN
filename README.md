@@ -1,2 +1,66 @@
 # MALARIA-DETECTION-CNN
 using CNN for classifying malaria skin images
+## DISCRIPTION
+>  we’ll discuss how deep learning and medical imaging can be applied to the malaria endemic.From there we’ll explore our malaria database which contains blood smear images that fall into one of two classes: positive for malaria or negative for malaria.After we’ve explored the database we’ll briefly review the directory structure for today’s project.We’ll then train a deep learning model on our medical images to predict if a given patient’s blood smear is positive for malaria or not.
+>  
+## DATASET
+> The malaria dataset we will be using in today’s deep learning and medical image analysis tutorial is the exact same dataset that `Rajaraman et al.` used in their 2018 publication. The dataset consists of 27,588 images belonging to two separate classes:
+>
+> HINT:The dataset itself can be found on the [official NIH webpage](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets)
+> * Parasitized: Implying that the region contains malaria.
+> * Uninfected: Meaning there is no evidence of malaria in the region.
+> 
+>  The number of images per class is equally distributed with 13,794 images per each respective class.the sample of dataset is similar as below:
+>  
+> ![dataset](https://user-images.githubusercontent.com/53394692/111433957-326c8300-8714-11eb-9c0b-9e23b8efc3d7.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## License
+> [Deep Learning and Medical Image Analysis with Keras](https://www.pyimagesearch.com/2018/12/03/deep-learning-and-medical-image-analysis-with-keras/) by Adrian Rosebrock
+
+
+
