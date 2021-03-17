@@ -29,7 +29,7 @@ python save_model.py --dataset malaria --model saved_model.model
 ![plot](https://user-images.githubusercontent.com/53394692/111466264-4d50ee80-8738-11eb-8cb4-131fa4dc68d1.png)
 
 ## Testing Procedure
-> for testing model,run followinn command:
+> for testing model,run following command:
 ```
 python load_model.py --images malaria/testing --model saved_model.model
 ```
