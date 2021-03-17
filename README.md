@@ -14,12 +14,16 @@ using CNN for classifying malaria skin images
 >  
 > ![dataset](https://user-images.githubusercontent.com/53394692/111433957-326c8300-8714-11eb-9c0b-9e23b8efc3d7.PNG)
 ## STRUCTURE of This Project
-> our dataset is assigned in `malaria` directory,as 3 seprate folderes `training`,`testing`and `validation`.each folder has two subdirectories as `Parasitized` and `Uninfected` that our images are assigned in them.
-> 
-> 
-
-
-
+> * our dataset is assigned in `malaria` directory,as 3 seprate folderes `training`,`testing`and `validation`.each folder has two subdirectories as `Parasitized` and `Uninfected` that our images are assigned in them.
+> * the architecture of autoencoder is in `pyimagesearch/resnet.py`.This file contains the exact ResNet model class included .
+> * `save_model.py` is assigned to train procedure.
+> * `load_modl.py` is assigned to test the algorithm.
+> * `plot.png` is assinged to show train/validation loss or accuracy.
+## Training Procedure
+> for starting the train procedure you can run following command:
+```
+python save_model.py --dataset malaria --model saved_model.model
+```
 
 
 
