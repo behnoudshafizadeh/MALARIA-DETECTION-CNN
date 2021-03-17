@@ -13,8 +13,10 @@ using CNN for classifying malaria skin images
 >  The number of images per class is equally distributed with 13,794 images per each respective class.the sample of dataset is similar as below:
 >  
 > ![dataset](https://user-images.githubusercontent.com/53394692/111433957-326c8300-8714-11eb-9c0b-9e23b8efc3d7.PNG)
-
-
+## STRUCTURE of This Project
+> our dataset is assigned in `malaria` directory,as 3 seprate folderes `training`,`testing`and `validation`.each folder has two subdirectories as `Parasitized` and `Uninfected` that our images are assigned in them.
+> 
+> 
 
 
 
