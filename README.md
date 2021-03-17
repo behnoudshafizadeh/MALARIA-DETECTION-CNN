@@ -20,12 +20,22 @@ using CNN for classifying malaria skin images
 > * `load_modl.py` is assigned to test the algorithm.
 > * `plot.png` is assinged to show train/validation loss or accuracy.
 ## Training Procedure
-> for starting the train procedure you can run following command:
+> for starting the train procedure ,you can run following command:
 ```
 python save_model.py --dataset malaria --model saved_model.model
 ```
+> after ending,the moodel weight is saved as `saved_model.model`,furthermore you can able to see the results,such as below:
+>
+![plot](https://user-images.githubusercontent.com/53394692/111466264-4d50ee80-8738-11eb-8cb4-131fa4dc68d1.png)
 
-
+## Testing Procedure
+> for testing model,run followinn command:
+```
+python load_model.py --images malaria/testing --model saved_model.model
+```
+> and see results as below:
+> 
+![test](https://user-images.githubusercontent.com/53394692/111469002-70c96880-873b-11eb-9683-7259482bd200.PNG)
 
 
 
